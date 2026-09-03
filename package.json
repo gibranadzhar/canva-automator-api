@@ -1,0 +1,17 @@
+{
+  "name": "canva-automator-api",
+  "version": "1.0.0",
+  "description": "API Canva Automation",
+  "main": "api_server.js",
+  "scripts": {
+    "start": "node api_server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.7.1",
+    "playwright": "^1.44.0"
+  }
+}
